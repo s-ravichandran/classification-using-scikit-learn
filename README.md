@@ -7,7 +7,7 @@ We took up a binary classification task and used scikit-learn to achieve it. We 
  - Random Forest
  - Adaboost
 
-A technical report for the project detailing the results can be found [here](https://github.com/s-ravichandran/Salary-Range-Prediction/blob/master/project760_final_report.pdf). The report includes precision-recall plots for the aforementioned learning algorithms. All of the plots can be found under `plots/`
+A technical report for the project detailing the results can be found [here](project760_final_report.pdf). The report includes precision-recall plots for the aforementioned learning algorithms. All of the plots can be found under `plots/`
 
 ## Team Members
 - Adithya Bhat - responsible for pre-processing and feature extraction
