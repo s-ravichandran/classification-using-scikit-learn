@@ -1,0 +1,58 @@
+svm - with feature selection sampleratio = 0.1 						- srini
+	- without feature selection sampleratio = 0.1
+dt -  Different max_leaves (30, 40, 50) (1) 							- srini
+	- PR curve one to show fitting/overfitting	maxLeaf = 30???				
+nb - Weighted and unweighted sampleratio = 0.99						- srini	
+knn - k=3; sampleratio = 0.05, 0.1, 0.15, 0.2 						- adbhat - done
+	- k = 1,2,3 sampleratio = 0.1							- adbhat - done
+ada - 2, 10, 100, 1000 estimators in 1 graph (learning rate 1) 				- adbhat - done
+	- 10 estimators with learning rate 0.5,1,10,100					- adbhat - done
+rf - 2, 10, 100 estimators 								- adbhat - done
+	- maxLeaves - (30, 300, 3000)							- adbhat - done
+Feature Imp / Discussion : 
+	- Table of feature importance							- adbhat - below
+
+
+
+
+mention that svm and knn are slow to the point of infeasibility
+
+
+
+Attribute	Importance
+detailed industry recode	0.28050498
+education	0.162690258
+enroll in edu inst last wk	0.131502446
+major occupation code	0.120879625
+capital losses	0.096180976
+age	0.055885354
+race	0.04112947
+detailed occupation recode	0.041065229
+wage per hour	0.017278319
+detailed household and family stat	0.015681103
+major industry code	0.011931629
+member of a labor union	0.006702619
+class of worker	0.004904957
+marital stat	0.004221561
+sex	0.00268722
+reason for unemployment	0.001547929
+region of previous residence	0.001119613
+num persons worked for employer	0.000885608
+fill inc questionnaire for veteran s admin	0.000633604
+live in this house 1 year ago	0.000593898
+country of birth mother	0.000530278
+own business or self employed	0.000503763
+full or part time employment stat	0.000478753
+country of birth father	0.000460809
+hispanic origin	0
+capital gains	0
+dividends from stocks	0
+tax filer stat	0
+detailed household summary in household	0
+family members under 18	0
+citizenship	0
+veterans benefits	0
+weeks worked in year	0
+year	0
+state of previous residence	0
+country of birth self	0

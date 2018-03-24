@@ -1,0 +1,31 @@
+
+5,6,32,30 looks numeric, is categorical
+
+Pos	 1,10,01,524.06 
+Neg	 16,25,38,748.55 
+
+
+state.of.previous.residence
+?:330
+
+migration.code.change.in.msa
+?:49946
+
+migration.code.change.in.reg              
+?:49946          
+
+migration.code.move.within.reg
+?:49946   
+
+migration.prev.res.in.sunbelt
+?:49946 
+  
+country.of.birth.father   country.of.birth.mother    country.of.birth.self
+United-States     :79368       United-States:80013       United-States:88353    
+Mexico            : 5048       Mexico       : 4987       Mexico       : 2936    
+?                 : 3429       ?            : 3072       ?            : 1764    
+Puerto-Rico       : 1288       Puerto-Rico  : 1193       Puerto-Rico  :  692    
+Italy             : 1119       Italy        :  917       Philippines  :  454    
+Dominican-Republic:  681       Canada       :  702       Cuba         :  428    
+(Other)            : 8829      (Other)       : 8878      (Other)       : 5135 
+ 

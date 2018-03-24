@@ -1,0 +1,3 @@
+1. Plot PR and RoC for SVM, DT, NB and K-NN (with and without instance weights)
+2. Implement Random Forest and Adaboost
+3. Implement Neural Net (with and without instance weights)

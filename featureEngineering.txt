@@ -1,0 +1,47 @@
+Looked at test file
+Neg : 93576
+Pos : 6186
+
+Changing Featues 
+Verified across train, test - are good indicators
+
+age : 
+	continous to discrete / categorical
+	< 27 - very Neg
+	35 - 60 - pretty Pos : 10% or more
+	> 65 - very Neg
+
+age_peak_years =IF(AND([@age]>34,[@age]<61),1,0)
+
+class.of.worker : 
+	discrete to binary (self-emplyed-incorporated or not)
+	self-emplyed-incorporated : 33% pos
+	government : >12%
+	private / self-emplyed-not-incorporated : 10%
+	others : 1%
+	
+education :
+	discrete to lesser discrete. Lets do thermometer encoding.
+	school grades : 1% pos
+	High school grad or some college but no degree : 5% pos
+	Masters : 30% pos
+	Doctorate, Prof school degree - over 50%
+
+edu_binary
+=IF(OR([@education] = " Prof school degree (MD DDS DVM LLB JD)", [@education] = " Doctorate degree(PhD EdD)"),2,IF([@education] = " Masters degree(MA MS MEng MEd 
+	
+	
+Removing Features
+Should consider using a package..
+	
+family.members.under.18 : 
+	drop ?
+	almost all -ive
+	
+lived.in.this.house.1.year.ago :
+	drop ? no use..
+	
+
+	
+	
+
